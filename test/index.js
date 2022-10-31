@@ -21,17 +21,36 @@ function App(props) {
 const fs = require("fs")
 const path = require("path")
 
-const filePath = "component-party/content/1-reactivity/1-declare-state/react/Name.jsx"
+const filePathAbsolute = (
+    process.argv[2] ? path.resolve(process.argv[2]) :
+    null
+)
 
-const srcPath = "src/" + filePath
-const outPath = "out/" + filePath
-const outDir = path.dirname(outPath)
+// workdir is project root
+process.chdir(path.dirname(path.dirname(__filename)))
+
+const srcPath = (
+    filePathAbsolute ? path.relative(process.cwd(), filePathAbsolute) :
+    "test/src/component-party/content/1-reactivity/1-declare-state/react/Name.jsx"
+)
 
 console.log(`reading ${srcPath}`)
+
+const filePath = (
+    srcPath.startsWith("test/src/") ? srcPath.slice("test/src/".length) :
+    null
+)
+
+//const srcPath = "test/src/" + filePath
+const outPath = filePath && ("test/out/" + filePath)
+const outDir = outPath && path.dirname(outPath)
+
 var code = fs.readFileSync(srcPath, "utf8")
 console.log(code)
 
-fs.mkdirSync(outDir, { recursive: true })
+if (outDir) {
+    fs.mkdirSync(outDir, { recursive: true })
+}
 
 /*
 // simple
@@ -85,8 +104,15 @@ const codeOptions = {
 const results = await eslint.lintText(code, codeOptions);
 
 if (results[0].output) {
-    console.log(`writing ${outPath}`)
-    fs.writeFileSync(outPath, results[0].output, "utf8")
+    if (outPath) {
+        console.log(`writing ${outPath}`)
+        fs.writeFileSync(outPath, results[0].output, "utf8")
+        console.log(results[0].output)
+    }
+    else {
+        console.log(`done`)
+        console.log(results[0].output)
+    }
 }
 else {
     console.log("not fixed")
