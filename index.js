@@ -8,6 +8,7 @@ const entries = require('object.entries');
 // TODO glob lib/rules/*.js
 const allRulesList = [
   'react-use-state-to-solid-create-signal',
+  'react-import-remove',
 ];
 
 const allRules = {};
