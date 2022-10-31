@@ -36,6 +36,7 @@ const srcPath = (
     //"test/src/rules/jsx-classname-to-class.jsx"
     /*
     "test/src/rules/react-types-to-solid-types.ts",
+    "test/src/react-query-devtools/src/devtools.tsx",
     */
 )
 
