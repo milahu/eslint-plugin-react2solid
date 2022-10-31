@@ -9,6 +9,7 @@ const entries = require('object.entries');
 const allRulesList = [
   'react-use-state-to-solid-create-signal',
   'react-use-effect-to-solid-create-effect',
+  'react-use-memo-to-solid-create-memo',
   'react-import-remove',
   'jsx-classname-to-class',
   'react-types-to-solid-types',
