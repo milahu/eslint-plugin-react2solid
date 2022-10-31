@@ -129,6 +129,7 @@ module.exports = {
   deprecatedRules,
   rules: allRules,
   configs: {
+    /*
     recommended: {
       plugins: [
         'react2solid',
@@ -139,8 +140,6 @@ module.exports = {
         },
       },
       rules: {
-        "react2solid/react-use-state-to-solid-create-signal": 2,
-        /*
         'react/display-name': 2,
         'react/jsx-key': 2,
         'react/jsx-no-comment-textnodes': 2,
@@ -163,9 +162,9 @@ module.exports = {
         'react/prop-types': 2,
         'react/react-in-jsx-scope': 2,
         'react/require-render-return': 2,
-        */
       },
     },
+    */
     all: {
       plugins: [
         'react2solid',

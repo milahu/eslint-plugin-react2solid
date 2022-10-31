@@ -11,7 +11,7 @@ module.exports = {
         "prettier",
         //"prettier/react",
         */
-        "plugin:react2solid/recommended",
+        "plugin:react2solid/all",
     ],
     "env": {
         "browser": true
