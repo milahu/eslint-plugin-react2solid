@@ -8,7 +8,7 @@ const entries = require('object.entries');
 // TODO glob + require ./lib/rules/*.js
 /* eslint-disable global-require */
 const allRules = {
-  'react-usestate-to-solid-createsignal': require('./lib/rules/react-usestate-to-solid-createsignal.js'),
+  'react-use-state-to-solid-create-signal': require('./lib/rules/react-use-state-to-solid-create-signal.js'),
   /*
   'boolean-prop-naming': require('./lib/rules/boolean-prop-naming'),
   'button-has-type': require('./lib/rules/button-has-type'),
