@@ -34,6 +34,9 @@ const srcPath = (
     //"test/src/component-party/content/1-reactivity/1-declare-state/react/Name.jsx"
     "test/src/react-use-memo/react/App.tsx"
     //"test/src/rules/jsx-classname-to-class.jsx"
+    /*
+    "test/src/rules/react-types-to-solid-types.ts",
+    */
 )
 
 console.log(`reading ${srcPath}`)

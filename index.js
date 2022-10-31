@@ -10,6 +10,7 @@ const allRulesList = [
   'react-use-state-to-solid-create-signal',
   'react-import-remove',
   'jsx-classname-to-class',
+  'react-types-to-solid-types',
 ];
 
 const allRules = {};
