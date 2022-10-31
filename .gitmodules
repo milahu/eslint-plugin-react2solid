@@ -1,3 +1,6 @@
 [submodule "test/src/src/component-party"]
 	path = test/src/src/component-party
 	url = https://github.com/matschik/component-party
+[submodule "test/src/src/tanstack-query"]
+	path = test/src/src/tanstack-query
+	url = https://github.com/TanStack/query
