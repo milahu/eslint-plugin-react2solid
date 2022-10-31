@@ -1,0 +1,3 @@
+[submodule "test/src/src/component-party"]
+	path = test/src/src/component-party
+	url = https://github.com/matschik/component-party
