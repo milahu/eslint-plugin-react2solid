@@ -7,18 +7,31 @@ import react2solid from "./putout-plugin-react2solid/lib/react2solid.js"
 var code = `
 // import missing: useState
 useState(0)
-
 const name = "world"
-
-const div = (
-    <div className="asdf">
-        <h1>hello {name}</h1>
-        <p>asfd asdf asdf</p>
-        <p>asfd asdf asdf</p>
-    </div>
-)
-
+function App(props) {
+    return (
+        <div className="asdf">
+            <h1>hello {props.name}</h1>
+            <p>asfd asdf asdf</p>
+        </div>
+    )
+}
 `;
+
+const fs = require("fs")
+const path = require("path")
+
+const filePath = "component-party/content/1-reactivity/1-declare-state/react/Name.jsx"
+
+const srcPath = "src/" + filePath
+const outPath = "out/" + filePath
+const outDir = path.dirname(outPath)
+
+console.log(`reading ${srcPath}`)
+var code = fs.readFileSync(srcPath, "utf8")
+console.log(code)
+
+fs.mkdirSync(outDir, { recursive: true })
 
 /*
 // simple
@@ -71,7 +84,15 @@ const codeOptions = {
 }
 const results = await eslint.lintText(code, codeOptions);
 
-console.log(results[0].output);
+if (results[0].output) {
+    console.log(`writing ${outPath}`)
+    fs.writeFileSync(outPath, results[0].output, "utf8")
+}
+else {
+    console.log("not fixed")
+    console.log(results)
+
+}
 
 }
 
