@@ -24,6 +24,12 @@ https://www.npmjs.com/package/putout
 parser: @babel/parser via @putout/engine-parser
 parser for TSX: @typescript-eslint/parser
 
+https://eslint.org/docs/latest/developer-guide/
+
+https://eslint.org/docs/latest/user-guide/configuring/plugins
+
+parser: @typescript-eslint/parser https://eslint.org/docs/latest/user-guide/configuring/plugins#specifying-parser
+
 ## tests
 
 https://storybook.js.org/blog/interaction-testing-with-storybook/
