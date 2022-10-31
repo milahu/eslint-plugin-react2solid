@@ -38,6 +38,8 @@ https://medium.com/storybookjs/testing-lib-storybook-react-8c36716fab86
 
 ## similar projects
 
+https://github.com/Sawtaytoes/reactjs-solidjs-bridge
+
 https://github.com/rrjanbiah/react2solid
 
 https://github.com/sveltosis/sveltosis - convert svelte to mitosis
