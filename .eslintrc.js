@@ -6,20 +6,28 @@ module.exports = {
     //"parser": "babel-eslint",
     "parser": "@typescript-eslint/parser",
     "extends": [
+        /*
         "airbnb",
         "prettier",
-        //"prettier/react"
+        //"prettier/react",
+        */
     ],
     "env": {
         "browser": true
     },
     "plugins": [
+        "react2solid",
+        /*
         //"react",
         "jsx-a11y",
         "import",
-        "prettier"
+        "prettier",
+        */
     ],
     "rules": {
+        "indent": "off", // keep indent
+        // TODO "prettier/indent": "off", // keep indent
+        // fixed by test/import.sh -> convert indent to spaces
         "no-console": "off",
         "linebreak-style": "off",
         /*
@@ -31,6 +39,7 @@ module.exports = {
         ],
         "react/react-in-jsx-scope": 0,
         */
+        /*
         "prettier/prettier": [
             "error",
             {
@@ -38,6 +47,7 @@ module.exports = {
                 "singleQuote": true,
                 "printWidth": 120
             }
-        ]
+        ],
+        */
     }
 }
