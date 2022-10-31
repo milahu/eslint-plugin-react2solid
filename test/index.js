@@ -33,6 +33,7 @@ const srcPath = (
     filePathAbsolute ? path.relative(process.cwd(), filePathAbsolute) :
     //"test/src/component-party/content/1-reactivity/1-declare-state/react/Name.jsx"
     "test/src/react-use-memo/react/App.tsx"
+    //"test/src/rules/jsx-classname-to-class.jsx"
 )
 
 console.log(`reading ${srcPath}`)
