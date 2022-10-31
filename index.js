@@ -117,7 +117,7 @@ function filterRules(rules, predicate) {
 }
 
 function configureAsError(rules) {
-  return fromEntries(Object.keys(rules).map((key) => [`react/${key}`, 2]));
+  return fromEntries(Object.keys(rules).map((key) => [`react2solid/${key}`, 2]));
 }
 
 const activeRules = filterRules(allRules, (rule) => !rule.meta.deprecated);
@@ -129,7 +129,6 @@ module.exports = {
   deprecatedRules,
   rules: allRules,
   configs: {
-    /*
     recommended: {
       plugins: [
         'react2solid',
@@ -140,6 +139,8 @@ module.exports = {
         },
       },
       rules: {
+        "react2solid/react-use-state-to-solid-create-signal": 2,
+        /*
         'react/display-name': 2,
         'react/jsx-key': 2,
         'react/jsx-no-comment-textnodes': 2,
@@ -162,9 +163,9 @@ module.exports = {
         'react/prop-types': 2,
         'react/react-in-jsx-scope': 2,
         'react/require-render-return': 2,
+        */
       },
     },
-    */
     all: {
       plugins: [
         'react2solid',
