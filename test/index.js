@@ -31,7 +31,8 @@ process.chdir(path.dirname(path.dirname(__filename)))
 
 const srcPath = (
     filePathAbsolute ? path.relative(process.cwd(), filePathAbsolute) :
-    "test/src/component-party/content/1-reactivity/1-declare-state/react/Name.jsx"
+    //"test/src/component-party/content/1-reactivity/1-declare-state/react/Name.jsx"
+    "test/src/react-use-memo/react/App.tsx"
 )
 
 console.log(`reading ${srcPath}`)
