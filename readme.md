@@ -6,7 +6,9 @@ convert react components to solid components
 
 https://npmtrends.com/eslint-vs-prettier-vs-putout-vs-recast-vs-tslint
 
-before i used `putout` which is based on `recast`
+before i used `putout` in
+https://github.com/milahu/putout-plugin-react2solid
+putout is based on `recast`
 but recast has a bug in the JSX pretty-printer
 https://github.com/coderaiser/putout/issues/116
 https://github.com/benjamn/recast/issues/211
