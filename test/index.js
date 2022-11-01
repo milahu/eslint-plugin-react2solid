@@ -37,6 +37,7 @@ const srcPath = (
     /*
     "test/src/rules/react-types-to-solid-types.ts",
     "test/src/react-query-devtools/src/devtools.tsx",
+    "test/src/react-use-ref/App.tsx",
     */
 )
 
