@@ -30,6 +30,14 @@ https://eslint.org/docs/latest/user-guide/configuring/plugins
 
 parser: @typescript-eslint/parser https://eslint.org/docs/latest/user-guide/configuring/plugins#specifying-parser
 
+https://playcode.io/react_ts_hooks
+
+https://playcode.io/react
+
+https://non-traditional.dev/an-intro-to-solidjs-for-react-developers
+
+
+
 ## tests
 
 https://storybook.js.org/blog/interaction-testing-with-storybook/
@@ -37,6 +45,8 @@ https://storybook.js.org/blog/interaction-testing-with-storybook/
 https://medium.com/storybookjs/testing-lib-storybook-react-8c36716fab86
 
 ## similar projects
+
+https://github.com/solidjs-community/solid-codemod
 
 https://github.com/Sawtaytoes/reactjs-solidjs-bridge
 
