@@ -7,7 +7,9 @@ const entries = require('object.entries');
 
 // TODO glob lib/rules/*.js
 const allRulesList = [
+  /* FIXME regression React.useMemo React.useRef
   'react-use-state-to-solid-create-signal',
+  */
   'react-use-effect-to-solid-create-effect',
   'react-use-memo-to-solid-create-memo',
   'react-import-remove',
