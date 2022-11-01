@@ -15,7 +15,7 @@ const allRulesList = [
   'react-import-remove',
   'jsx-classname-to-class',
   'react-types-to-solid-types',
-  'react-use-ref-to-solid',
+  'react-use-ref-to-solid-let',
 ];
 
 const allRules = {};
