@@ -1,0 +1,4 @@
+# fix project language on github
+
+*.ts linguist-detectable=false
+*.tsx linguist-detectable=false
