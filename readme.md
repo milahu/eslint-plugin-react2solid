@@ -36,8 +36,6 @@ https://playcode.io/react
 
 https://non-traditional.dev/an-intro-to-solidjs-for-react-developers
 
-
-
 ## tests
 
 https://storybook.js.org/blog/interaction-testing-with-storybook/
@@ -46,17 +44,21 @@ https://medium.com/storybookjs/testing-lib-storybook-react-8c36716fab86
 
 ## similar projects
 
+[suid](https://github.com/swordev/suid) - A port of Material-UI (MUI) built with SolidJS.
+
+[suid/codemod](https://github.com/swordev/suid/tree/main/packages/codemod) - Transform your MUI React code to SUID SolidJS. ([live demo](https://suid.io/tools/react-to-solid))
+
+[solid-reactor](https://github.com/yellowsink/solid-reactor) - A compiler to ease the move from React to SolidJS.
+
+[react2solid](https://github.com/rrjanbiah/react2solid) - from scratch?
+
 https://github.com/solidjs-community/solid-codemod
 
-https://github.com/Sawtaytoes/reactjs-solidjs-bridge
+[sveltosis](https://github.com/sveltosis/sveltosis) - convert svelte to mitosis. [parser](https://github.com/sveltosis/sveltosis/tree/main/packages/parser) based on svelte parser
+([stories](https://party.sveltosis.dev/))
+([playground](https://try.sveltosis.dev/))
 
-https://github.com/rrjanbiah/react2solid
-
-https://github.com/sveltosis/sveltosis - convert svelte to mitosis
-stories: https://party.sveltosis.dev/ inspired by https://component-party.dev/
-playground: https://try.sveltosis.dev/
-
-https://github.com/matschik/component-party - Web component JS frameworks overview by their syntax and features
+[component-party](https://github.com/matschik/component-party) - Web component JS frameworks overview by their syntax and features.
 components for:
 Svelte
 React
@@ -67,3 +69,5 @@ Lit
 Ember
 Alpine
 Qwik
+
+[reactjs-solidjs-bridge](https://github.com/Sawtaytoes/reactjs-solidjs-bridge) - runtime adapter between react and solid
