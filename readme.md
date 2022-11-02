@@ -2,6 +2,12 @@
 
 convert react components to solid components
 
+## status
+
+:warning: deprecated in favor of [suid/codemod](https://github.com/swordev/suid/tree/main/packages/codemod)
+
+> [suid/codemod](https://github.com/swordev/suid/tree/main/packages/codemod) - Transform your MUI React code to SUID SolidJS. ([live demo](https://suid.io/tools/react-to-solid))
+
 ## why eslint
 
 https://npmtrends.com/eslint-vs-prettier-vs-putout-vs-recast-vs-tslint
