@@ -14,7 +14,7 @@ eslint fails at complex transforms, see https://github.com/eslint/eslint/discuss
 
 ## why eslint
 
-https://npmtrends.com/eslint-vs-prettier-vs-putout-vs-recast-vs-tslint
+https://npmtrends.com/eslint-vs-jscodeshift-vs-putout-vs-recast-vs-ts-morph-vs-tslint
 
 before i used `putout` in
 https://github.com/milahu/putout-plugin-react2solid
